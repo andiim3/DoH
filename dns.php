@@ -31,4 +31,6 @@ else if (isset($_GET['dns']))
         }else{
                 echo "Error processing your request: $_GET[dns]";
         }
+}else {
+        echo "Nothing to see here.."; // put any message you like. For example, how to use this script/server in any device.
 }
